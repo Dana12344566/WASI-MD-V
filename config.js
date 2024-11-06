@@ -46,7 +46,7 @@ global.disablepm = process.env.DISABLE_PM || "false";
 (global.disablegroup = process.env.DISABLE_GROUPS || "false"),
   (global.MsgsInLog = process.env.MSGS_IN_LOG || "true");
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "recording";
+global.waPresence = process.env.WAPRESENCE || "";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -70,7 +70,7 @@ module.exports = {
   caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2😍",
   author: process.env.PACK_AUTHER || "WASO",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2",
+  botname: process.env.BOT_NAME || "DHANA-MD",
   ownername: process.env.OWNER_NAME || "WASI",
   errorChat: process.env.ERROR_CHAT || "923192173398",
   KOYEB_API: process.env.KOYEB_API || "false",
